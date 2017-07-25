@@ -54,6 +54,7 @@
       }
   run_once: true
 
+## maybe need to skip
 - name: "Check_certs | Set 'sync_certs' to true"
   set_fact:
     sync_certs: true
